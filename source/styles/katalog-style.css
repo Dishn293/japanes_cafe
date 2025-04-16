@@ -93,7 +93,7 @@ h1 {
 
 .card {
     animation: myAnim 2s ease 0s 1 normal forwards;
-    transition: all 0.3s ease; 
+    transition: all 0.2s ease; 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -166,10 +166,103 @@ h1 {
     margin-top: 20px;
 }
 
-/* Адаптив*/
 
-/* 4К  */
+
 @media (max-width: 2560px) {
+    .card {
+        width: 20%;
+    }
+
+    .card-img {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .card {
+        width: 30%;
+    }
+
+    .card-img {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .card {
+        width: 40%;
+    }
+
+    .card-img {
+        width: 90%;
+    }
+}
+
+@media (max-width: 770px) {
+    .nav-bar {
+        display: block;
+    }
+    
+    .nav-bar a {
+        font-size: 1.5em;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .card-img{
+        width: 90%;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+}
+
+@media (max-width: 430px) {
+    .nav-bar a {
+        font-size: 1.5em;
+    }
+    
+    .card {
+        width: 90%;
+    }
+
+    .card-img {
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width: 2560px) {
     .card {
         width: 30%;
     }
@@ -179,7 +272,7 @@ h1 {
     }
 }
 
-/*  */
+
 @media (max-width: 1440px){
     .card {
         width: 30%;
@@ -190,7 +283,7 @@ h1 {
     }
 }
 
-/* Планшет и телефон */
+
 @media (max-width: 768px) {
     .nav-bar {
         flex-direction: column;
@@ -206,7 +299,7 @@ h1 {
     }
 
     .card {
-        width: 90vh;
+        width: 80%;
     }
 
     .bgvideo video {
@@ -215,11 +308,11 @@ h1 {
     }
 }
 
-/* Телефон */
-@media (max-width: 360px) {
+
+@media (max-width: 390px) {
 
     .card {
-        width: 90%;
+        width: 100%;
     }
 
     .card-img {
@@ -227,10 +320,10 @@ h1 {
     }
 }
 
-/* ноутбук */
+
 @media (max-width: 1024px) {
     .card {
-        width: 45%;
+        width: 40%;
     }
 
     .card-img {
@@ -238,10 +331,15 @@ h1 {
     }
 }
 
-/* телефон */
+
 @media (max-width: 425px) {
     .card {
-        width: 90%;
+        width: 100vh;
     }
 }
 
+@media (max-width: 700px) {
+    .card {
+        width: 80%;
+    }
+} */
